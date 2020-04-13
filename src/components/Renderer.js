@@ -78,7 +78,6 @@ const Renderer = ({ universe, wasmMemory }) => {
 
   return (
     <div>
-      <label className="label">test</label>
       <canvas id="game-of-life-canvas" ref={canvasRef} width={canvasWidth} height={canvasHeight} />
     </div>
   )
