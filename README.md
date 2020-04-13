@@ -1,6 +1,6 @@
 ## Overview
 
-This project demonstrate how to create a was application with Rust and React framework.
+This project demonstrate how to create an WASM application with Rust and React framework.
 It will use the Game Of Life example from https://rustwasm.github.io/docs/book/game-of-life
 
 
