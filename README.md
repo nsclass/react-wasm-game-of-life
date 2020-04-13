@@ -1,8 +1,15 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+This project demonstrate how to create a was application with Rust and React framework.
+It will use the Game Of Life example from https://rustwasm.github.io/docs/book/game-of-life
 
-In the project directory, you can run:
+
+## Compile Rust Game Of Life package
+```
+$ cd wasm-gamle-of-life
+$ wasm-pack build
+```
+
 
 ### `yarn start`
 
