@@ -1,17 +1,17 @@
 import React, {useState} from 'react';
 import './App.css';
-
+import Renderer from './components/Renderer';
 
 const App = () => {
   const [loading, setLoading] = useState(false)
-  const [wasm, setWasm] = useState(null)
+  const [universe, setUniverse] = useState(null)
 
   const loadWasm = async () => {
     try {
       setLoading(true)
-      console.log("loading...")
+      console.log("loading...")      
       const wasm = await import('wasm-game-of-life');
-      setWasm(wasm);
+      setUniverse(wasm.Universe.new());
     } catch(err) {
       console.error(`Unexpected error in loadWasm. [Message: ${err.message}]`);
     } finally {
@@ -19,21 +19,24 @@ const App = () => {
     }
   };
 
-  if (!wasm && !loading) {
+  if (!universe && !loading) {
     loadWasm()
   }
 
-  if (!wasm) {
+  if (!universe) {
     return (
-      <div>
-        <label className="label">load...</label>
+      <div className="container">
+        <h1 className="title">loading...</h1>
       </div>
     )
   }
   
-  const hello = wasm.greet('Nam');
   return (
-    <label className="label">{`${hello}`}</label>
+    <section>
+      <div className="container">
+        <Renderer universe={universe} />
+      </div>      
+    </section>
   );
 }
 
