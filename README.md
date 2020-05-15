@@ -10,6 +10,13 @@ $ cd wasm-gamle-of-life
 $ wasm-pack build
 ```
 
+### Refresh local package
+After modifying the rust wasm package, the following command is required if it didn't pick up changes.
+
+```
+$ yarn upgrade wasm-game-of-life
+```
+
 
 ### `yarn start`
 
