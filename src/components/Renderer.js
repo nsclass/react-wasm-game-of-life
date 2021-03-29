@@ -69,9 +69,9 @@ const Renderer = ({ universe, wasmMemory }) => {
     drawGrid(ctx)
     drawCells(ctx)
     setNeedsDraw(false)
-  })
+  }, [needsDraw])
 
-  useAnimationFrame((deltaTime) => {
+  useAnimationFrame(deltaTime => {
     universe.tick()
     setNeedsDraw(true)
   })
