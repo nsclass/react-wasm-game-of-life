@@ -3,7 +3,7 @@ import "./App.css"
 import Renderer from "./components/Renderer"
 
 const App = () => {
-  const [loading, setLoading] = useState(false)
+  const [loading, setLoading] = useState(true)
   const [universe, setUniverse] = useState(null)
   const [wasmMemory, setWasmMemory] = useState(null)
 
@@ -27,7 +27,7 @@ const App = () => {
     loadWasm()
   }, [])
 
-  if (!universe || !wasmMemory) {
+  if (loading) {
     return (
       <div className="container">
         <h1 className="title">loading...</h1>
@@ -35,7 +35,17 @@ const App = () => {
     )
   }
 
-  return <Renderer universe={universe} wasmMemory={wasmMemory} />
+  if (!universe || !wasmMemory) {
+    return (
+        <div className="container">
+          <h1>Failed to load WASM</h1>
+        </div>
+    )
+  }
+
+  return (
+      <Renderer universe={universe} wasmMemory={wasmMemory} />
+  )
 }
 
 export default App
