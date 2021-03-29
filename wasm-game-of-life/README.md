@@ -67,3 +67,6 @@ wasm-pack publish
   for logging panic messages to the developer console.
 * [`wee_alloc`](https://github.com/rustwasm/wee_alloc), an allocator optimized
   for small code size.
+
+# Github working page
+[https://nsclass.github.io/react-wasm-game-of-life](https://nsclass.github.io/react-wasm-game-of-life)
