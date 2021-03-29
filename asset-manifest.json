@@ -4,14 +4,14 @@
     "2c29ca6e9473042bc4b0.module.wasm": "/react-wasm-game-of-life/2c29ca6e9473042bc4b0.module.wasm",
     "static/js/0.2b339945.chunk.js.map": "/react-wasm-game-of-life/static/js/0.2b339945.chunk.js.map",
     "main.css": "/react-wasm-game-of-life/static/css/main.dbd4dc0d.chunk.css",
-    "main.js": "/react-wasm-game-of-life/static/js/main.7274948a.chunk.js",
-    "main.js.map": "/react-wasm-game-of-life/static/js/main.7274948a.chunk.js.map",
+    "main.js": "/react-wasm-game-of-life/static/js/main.30d665a9.chunk.js",
+    "main.js.map": "/react-wasm-game-of-life/static/js/main.30d665a9.chunk.js.map",
     "runtime-main.js": "/react-wasm-game-of-life/static/js/runtime-main.513b59bd.js",
     "runtime-main.js.map": "/react-wasm-game-of-life/static/js/runtime-main.513b59bd.js.map",
     "static/js/3.c6aa8c84.chunk.js": "/react-wasm-game-of-life/static/js/3.c6aa8c84.chunk.js",
     "static/js/3.c6aa8c84.chunk.js.map": "/react-wasm-game-of-life/static/js/3.c6aa8c84.chunk.js.map",
     "index.html": "/react-wasm-game-of-life/index.html",
-    "precache-manifest.cd3e2e952f078cbdd690594aab8e6ef5.js": "/react-wasm-game-of-life/precache-manifest.cd3e2e952f078cbdd690594aab8e6ef5.js",
+    "precache-manifest.4c7e063a9490d64456ed3241ebd0e74f.js": "/react-wasm-game-of-life/precache-manifest.4c7e063a9490d64456ed3241ebd0e74f.js",
     "service-worker.js": "/react-wasm-game-of-life/service-worker.js",
     "static/css/main.dbd4dc0d.chunk.css.map": "/react-wasm-game-of-life/static/css/main.dbd4dc0d.chunk.css.map",
     "static/js/3.c6aa8c84.chunk.js.LICENSE.txt": "/react-wasm-game-of-life/static/js/3.c6aa8c84.chunk.js.LICENSE.txt"
@@ -20,6 +20,6 @@
     "static/js/runtime-main.513b59bd.js",
     "static/js/3.c6aa8c84.chunk.js",
     "static/css/main.dbd4dc0d.chunk.css",
-    "static/js/main.7274948a.chunk.js"
+    "static/js/main.30d665a9.chunk.js"
   ]
 }

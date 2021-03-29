@@ -4,11 +4,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-wasm-game-of-life/2c29ca6e9473042bc4b0.module.wasm"
   },
   {
-    "revision": "542a19c14810463c818c8e9770e2d7b6",
+    "revision": "c9428edca15b8f5d3b2a2b8e72b7dde4",
     "url": "/react-wasm-game-of-life/index.html"
   },
   {
-    "revision": "9a3347c334a89cebe32f",
+    "revision": "8424b455374e8e3399b7",
     "url": "/react-wasm-game-of-life/static/css/main.dbd4dc0d.chunk.css"
   },
   {
@@ -24,8 +24,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-wasm-game-of-life/static/js/3.c6aa8c84.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9a3347c334a89cebe32f",
-    "url": "/react-wasm-game-of-life/static/js/main.7274948a.chunk.js"
+    "revision": "8424b455374e8e3399b7",
+    "url": "/react-wasm-game-of-life/static/js/main.30d665a9.chunk.js"
   },
   {
     "revision": "9c4377ce5c2b8991c569",
