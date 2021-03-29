@@ -3,6 +3,8 @@
 This project shows how to create an WASM application with Rust and React framework.
 It will use the Game Of Life example from https://rustwasm.github.io/docs/book/game-of-life
 
+## Github working page
+[https://nsclass.github.io/react-wasm-game-of-life](https://nsclass.github.io/react-wasm-game-of-life)
 
 ## Compile Rust Game Of Life package
 ```
