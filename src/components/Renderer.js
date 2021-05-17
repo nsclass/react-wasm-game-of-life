@@ -6,7 +6,7 @@ const GRID_COLOR = "#CCCCCC"
 const DEAD_COLOR = "#FFFFFF"
 const ALIVE_COLOR = "#000000"
 
-const Renderer = ({ universe, wasmMemory }) => {
+export const Renderer = ({ universe, wasmMemory }) => {
   // const [scene, setScene] = useState("")
   const [needsDraw, setNeedsDraw] = useState(false)
   const canvasRef = React.useRef(null)
@@ -77,10 +77,13 @@ const Renderer = ({ universe, wasmMemory }) => {
   })
 
   return (
-    <div>
-      <canvas id="game-of-life-canvas" ref={canvasRef} width={canvasWidth} height={canvasHeight} />
-    </div>
+    <>
+      <div className="container">
+        <label className="label">Game Of Life</label>
+      </div>
+      <div>
+        <canvas id="game-of-life-canvas" ref={canvasRef} width={200} height={200} />
+      </div>
+    </>
   )
 }
-
-export default Renderer

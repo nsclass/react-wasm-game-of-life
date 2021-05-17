@@ -1,6 +1,6 @@
-import React, { useState , useEffect} from "react"
+import React, {useEffect, useState} from "react"
 import "./App.css"
-import Renderer from "./components/Renderer"
+import { Renderer } from "./components/Renderer"
 
 const App = () => {
   const [loading, setLoading] = useState(true)
@@ -44,7 +44,9 @@ const App = () => {
   }
 
   return (
-      <Renderer universe={universe} wasmMemory={wasmMemory} />
+    <>
+      <Renderer universe={universe} wasmMemory={wasmMemory}/>
+    </>
   )
 }
 
